@@ -1,0 +1,9 @@
+name: DoubleJump
+main: tc.oc.doublejump.DoubleJumpPlugin
+version: ${project.version}
+author: Anxuiz
+
+permissions:
+  doublejump.use:
+    description: Allows the player to double jump
+    default: false
