@@ -7,3 +7,9 @@ permissions:
   doublejump.use:
     description: Allows the player to double jump
     default: false
+  doublejump.using:
+    descrption: Players in the middle of a jump have this
+    default: false
+  doublejump.nofalldamage:
+    description: Temporary permission to prevent fall damage
+    default: false

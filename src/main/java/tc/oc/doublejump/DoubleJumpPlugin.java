@@ -9,6 +9,6 @@ public final class DoubleJumpPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        this.getServer().getPluginManager().registerEvents(new DoubleJumpListener(), this);
+        this.getServer().getPluginManager().registerEvents(new DoubleJumpListener(this), this);
     }
 }
