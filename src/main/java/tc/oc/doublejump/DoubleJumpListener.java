@@ -28,10 +28,10 @@ public class DoubleJumpListener implements Listener {
 
                     if(player.getExp() < 1.0f) {
                         player.setExp(player.getExp() + 0.2f);
-                        DoubleJumpListener.this.refreshJump(player);
                     } else if(player.getExp() > 1.0f) {
                         player.setExp(1.0f);
                     }
+                    DoubleJumpListener.this.refreshJump(player);
                 }
             }
         }, 0, 10);
@@ -81,7 +81,7 @@ public class DoubleJumpListener implements Listener {
     }
 
     public void refreshJump(@Nonnull Player player) {
-        if(player.getExp() == 1.0f) {
+        if(player.getExp() >= 1.0f) {
             player.setAllowFlight(true);
         }
     }
