@@ -1,7 +1,9 @@
-name: DoubleJump
-main: tc.oc.doublejump.DoubleJumpPlugin
-version: ${project.version}
-author: Anxuiz
+name: ${name}
+description: ${description}
+main: ${plugin.mainClass}
+prefix: ${plugin.prefix}
+version: ${version}
+author: Overcast Network
 
 permissions:
   doublejump.use:

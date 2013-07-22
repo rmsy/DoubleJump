@@ -5,6 +5,10 @@
     <version>0.1.0-SNAPSHOT</version>
     <name>DoubleJump</name>
     <description>Bukkit plugin that allows double jumping in Minecraft.</description>
+    <properties>
+        <plugin.prefix>DoubleJump</plugin.prefix>
+        <plugin.mainClass>tc.oc.doublejump.DoubleJumpPlugin</plugin.mainClass>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>tc.oc</groupId>
